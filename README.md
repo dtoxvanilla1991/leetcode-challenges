@@ -20,7 +20,7 @@ LeetCode is one of the most well-known online judge platforms that you can use t
 
 Yuri Avdiyevski - [@dtoxvanilla](https://twitter.com/your_username) - dtoxvanilla@gmail.com
 
-LeetCode Link: [LeetCode DToxVanilla profile]([https://leetcode.com/dtoxvanilla/)
+LeetCode Link: [LeetCode DToxVanilla profile](https://leetcode.com/dtoxvanilla/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
