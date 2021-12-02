@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "longestSubstring2.js"
+            "program": "houseRobber.js"
         }
     ]
 }
