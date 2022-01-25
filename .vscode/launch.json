@@ -10,6 +10,6 @@
         "skipFiles": [
             "<node_internals>/**"
         ],
-        "program": "aa.js"
+        "program": "validParenthesis 2.js"
     }]
 }
