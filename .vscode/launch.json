@@ -10,6 +10,6 @@
         "skipFiles": [
             "<node_internals>/**"
         ],
-        "program": "validParenthesis 2.js"
+        "program": "binarySearch.js"
     }]
 }
