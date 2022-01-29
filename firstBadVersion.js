@@ -21,12 +21,45 @@
  * @param {function} isBadVersion()
  * @return {function}
  */
- var solution = function(isBadVersion) {
+// SLOWER SOLUTION:
+// var solution = function(isBadVersion) {
+//     /**
+//      * @param {integer} n Total versions
+//      * @return {integer} The first bad version
+//      */
+//     return function(n) {
+//         let start = 0;
+//         let end = n;
+//         let result;
+
+//         while(start<=end){
+
+//             let middle = Math.floor((start+end)/2);
+//             if(isBadVersion(middle) && !isBadVersion(middle-1)) {
+//                 return result == middle;
+//             }
+//             if(!isBadVersion(middle)){
+//                 start = middle+1;
+//             }else{
+//                 end = middle-1;
+//             }
+//         }
+//         return result;
+//     };
+
+// };
+var solution = function(isBadVersion) {
     /**
      * @param {integer} n Total versions
      * @return {integer} The first bad version
      */
     return function(n) {
-        
+        let start= 1, e = n;
+        while (start < e) {
+            const m = Math.floor((e + start) / 2);
+            isBadVersion(m) ? e = m : start = m + 1;
+        }
+        return start;
     };
 };
+
