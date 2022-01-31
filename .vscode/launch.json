@@ -10,6 +10,6 @@
         "skipFiles": [
             "<node_internals>/**"
         ],
-        "program": "squaresofaSortedArray.js"
+        "program": "inputArrayisSorted.js"
     }]
 }
