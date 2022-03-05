@@ -1,9 +1,6 @@
-/**
- * @param {string} s
- * @return {number}
- */
+
 var romanToInt = function(s) {
-    //declaring global v:
+    //declaring variables:
     const romans = {
         "I": 1,
         "V": 5,
