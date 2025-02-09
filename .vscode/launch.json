@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-          "type": "pwa-node",
+          "type": "node",
           "request": "launch",
           "name": "Launch Program",
           "skipFiles": ["<node_internals>/**"],
-          "program": "${workspaceFolder}\\top-150-interview-challenges\\remove-duplicates.ts"
+          "program": "${workspaceFolder}/top-150-interview-challenges/remove-duplicates.js",
+          "cwd": "${workspaceFolder}"
         }
     ]
 }
